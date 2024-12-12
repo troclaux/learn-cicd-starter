@@ -36,3 +36,6 @@ jobs:
 
       - name: check formatting
         run: test -z $(go fmt ./...)
+
+      - name: linting
+        run: staticcheck ./...

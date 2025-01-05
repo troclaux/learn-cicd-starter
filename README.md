@@ -6,7 +6,7 @@
 
 This project focuses on implementing a CI/CD pipeline with Github Actions that builds a Docker image and pushes it to GCP's [Artifact Registry](https://cloud.google.com/artifact-registry).
 
-[Click here to access the deployed application](https://notely-83112333672.us-central1.run.app/)
+[Link to deployed application](https://notely-83112333672.us-central1.run.app/)
 
 ## Project Objectives
 
@@ -54,20 +54,17 @@ This project focuses on implementing a CI/CD pipeline with Github Actions that b
    - Configure the cloud provider’s CLI tools.
    - Deploy the application to a compute instance.
 
-## Pre-requisites
+## Tools
 
-1. Accounts and Tools:
-   - A GitHub account.
-   - A GCP account with billing enabled.
-   - Docker installed locally.
-
-2. GCP Setup:
-   - Enable the [Artifact Registry API](https://cloud.google.com/artifact-registry/docs/enable-api).
-   - Configure a GCP project and link it with your Artifact Registry.
-
-3. GitHub Actions:
-   - Create workflows using `.github/workflows/ci.yml`.
-   - Add required environment variables and secrets.
+- Golang
+  - Goose
+  - Turso
+- Github Actions
+- Docker
+- Google Cloud Provider
+  - Google SDK
+  - Artifact Registry
+  - Cloud Run
 
 ## Helpful Links
 
